@@ -1,0 +1,21 @@
+{
+	"name": "acme-company-lister",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start:dev": "nodemon server"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.18.1",
+		"sequelize": "^6.21.4"
+	},
+	"devDependencies": {
+		"@faker-js/faker": "^7.4.0",
+		"nodemon": "^2.0.19"
+	}
+}
